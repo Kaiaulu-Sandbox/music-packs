@@ -1,0 +1,703 @@
+{
+ "format": "music-pack",
+ "version": 1,
+ "name": "Genre loops",
+ "about": "63 genre loops, from slow blues at 62 BPM to thrash metal at 190.",
+ "author": "Kaiāulu Sandbox",
+ "license": "All rights reserved. Free to play in Kaiāulu Sandbox games.",
+ "tracks": [
+  {
+   "id": "doom",
+   "title": "Doom metal",
+   "bpm": 62,
+   "family": "Metal",
+   "file": "loops/doom.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 7.741927
+   }
+  },
+  {
+   "id": "slowblues",
+   "title": "Slow blues",
+   "bpm": 62,
+   "family": "Gospel & blues",
+   "file": "loops/slowblues.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 7.741927
+   }
+  },
+  {
+   "id": "bossa",
+   "title": "Bossa nova",
+   "bpm": 66,
+   "family": "Jazz",
+   "file": "loops/bossa.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 7.272721
+   }
+  },
+  {
+   "id": "ballad",
+   "title": "Jazz ballad",
+   "bpm": 66,
+   "family": "Jazz",
+   "file": "loops/ballad.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 7.272721
+   }
+  },
+  {
+   "id": "ambient",
+   "title": "Ambient",
+   "bpm": 70,
+   "family": "Downtempo & ambient",
+   "file": "loops/ambient.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 6.857143
+   }
+  },
+  {
+   "id": "dub",
+   "title": "Dub",
+   "bpm": 70,
+   "family": "Reggae & Caribbean",
+   "file": "loops/dub.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 6.857143
+   }
+  },
+  {
+   "id": "rnb",
+   "title": "Modern R&B",
+   "bpm": 70,
+   "family": "R&B & soul",
+   "file": "loops/rnb.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 6.857143
+   }
+  },
+  {
+   "id": "reggae",
+   "title": "Reggae one drop",
+   "bpm": 76,
+   "family": "Reggae & Caribbean",
+   "file": "loops/reggae.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 6.315782
+   }
+  },
+  {
+   "id": "lofi",
+   "title": "Lo-fi hip-hop",
+   "bpm": 80,
+   "family": "Hip-hop",
+   "file": "loops/lofi.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 6
+   }
+  },
+  {
+   "id": "neosoul",
+   "title": "Neo soul",
+   "bpm": 84,
+   "family": "R&B & soul",
+   "file": "loops/neosoul.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5.714286
+   }
+  },
+  {
+   "id": "triphop",
+   "title": "Trip-hop",
+   "bpm": 86,
+   "family": "Downtempo & ambient",
+   "file": "loops/triphop.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5.581406
+   }
+  },
+  {
+   "id": "boombap",
+   "title": "Boom bap",
+   "bpm": 90,
+   "family": "Hip-hop",
+   "file": "loops/boombap.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5.333333
+   }
+  },
+  {
+   "id": "gfunk",
+   "title": "G-funk",
+   "bpm": 94,
+   "family": "Hip-hop",
+   "file": "loops/gfunk.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5.106372
+   }
+  },
+  {
+   "id": "reggaeton",
+   "title": "Reggaeton",
+   "bpm": 94,
+   "family": "Reggae & Caribbean",
+   "file": "loops/reggaeton.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5.106372
+   }
+  },
+  {
+   "id": "chillout",
+   "title": "Chillout",
+   "bpm": 96,
+   "family": "Downtempo & ambient",
+   "file": "loops/chillout.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5
+   }
+  },
+  {
+   "id": "gospel",
+   "title": "Gospel",
+   "bpm": 96,
+   "family": "Gospel & blues",
+   "file": "loops/gospel.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 5
+   }
+  },
+  {
+   "id": "dancehall",
+   "title": "Dancehall",
+   "bpm": 100,
+   "family": "Reggae & Caribbean",
+   "file": "loops/dancehall.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "jazzfunk",
+   "title": "Jazz-funk",
+   "bpm": 100,
+   "family": "Jazz",
+   "file": "loops/jazzfunk.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "modernpop",
+   "title": "Modern pop",
+   "bpm": 100,
+   "family": "Pop",
+   "file": "loops/modernpop.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "numetal",
+   "title": "Nu metal",
+   "bpm": 100,
+   "family": "Metal",
+   "file": "loops/numetal.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "soul",
+   "title": "Soul",
+   "bpm": 100,
+   "family": "R&B & soul",
+   "file": "loops/soul.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "synthwave",
+   "title": "Synthwave",
+   "bpm": 100,
+   "family": "Pop",
+   "file": "loops/synthwave.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.8
+   }
+  },
+  {
+   "id": "shuffle",
+   "title": "Blues shuffle",
+   "bpm": 104,
+   "family": "Gospel & blues",
+   "file": "loops/shuffle.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.615374
+   }
+  },
+  {
+   "id": "funk",
+   "title": "Funk",
+   "bpm": 106,
+   "family": "R&B & soul",
+   "file": "loops/funk.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.528299
+   }
+  },
+  {
+   "id": "oldschool",
+   "title": "Old school",
+   "bpm": 108,
+   "family": "Hip-hop",
+   "file": "loops/oldschool.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.444444
+   }
+  },
+  {
+   "id": "country",
+   "title": "Country",
+   "bpm": 112,
+   "family": "Country & bluegrass",
+   "file": "loops/country.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.285714
+   }
+  },
+  {
+   "id": "disco",
+   "title": "Disco",
+   "bpm": 118,
+   "family": "R&B & soul",
+   "file": "loops/disco.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.0678
+   }
+  },
+  {
+   "id": "synthpop",
+   "title": "Synth-pop",
+   "bpm": 118,
+   "family": "Pop",
+   "file": "loops/synthpop.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4.0678
+   }
+  },
+  {
+   "id": "bluegrass",
+   "title": "Bluegrass",
+   "bpm": 120,
+   "family": "Country & bluegrass",
+   "file": "loops/bluegrass.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4
+   }
+  },
+  {
+   "id": "classicrock",
+   "title": "Classic rock",
+   "bpm": 120,
+   "family": "Rock",
+   "file": "loops/classicrock.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 4
+   }
+  },
+  {
+   "id": "deephouse",
+   "title": "Deep house",
+   "bpm": 122,
+   "family": "House",
+   "file": "loops/deephouse.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.934422
+   }
+  },
+  {
+   "id": "indie",
+   "title": "Alternative & indie",
+   "bpm": 124,
+   "family": "Rock",
+   "file": "loops/indie.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.870975
+   }
+  },
+  {
+   "id": "classichouse",
+   "title": "Classic house",
+   "bpm": 124,
+   "family": "House",
+   "file": "loops/classichouse.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.870975
+   }
+  },
+  {
+   "id": "dancepop",
+   "title": "Dance-pop",
+   "bpm": 124,
+   "family": "Pop",
+   "file": "loops/dancepop.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.870975
+   }
+  },
+  {
+   "id": "industrial",
+   "title": "Industrial",
+   "bpm": 124,
+   "family": "Industrial & gothic",
+   "file": "loops/industrial.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.870975
+   }
+  },
+  {
+   "id": "bigbeat",
+   "title": "Big beat",
+   "bpm": 126,
+   "family": "Breakbeat & UK bass",
+   "file": "loops/bigbeat.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.809524
+   }
+  },
+  {
+   "id": "minimal",
+   "title": "Minimal techno",
+   "bpm": 126,
+   "family": "Techno",
+   "file": "loops/minimal.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.809524
+   }
+  },
+  {
+   "id": "techhouse",
+   "title": "Tech house",
+   "bpm": 126,
+   "family": "House",
+   "file": "loops/techhouse.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.809524
+   }
+  },
+  {
+   "id": "detroit",
+   "title": "Detroit techno",
+   "bpm": 128,
+   "family": "Techno",
+   "file": "loops/detroit.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.75
+   }
+  },
+  {
+   "id": "bigroom",
+   "title": "Electro & big room",
+   "bpm": 128,
+   "family": "House",
+   "file": "loops/bigroom.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.75
+   }
+  },
+  {
+   "id": "ukgarage",
+   "title": "2-step garage",
+   "bpm": 132,
+   "family": "Breakbeat & UK bass",
+   "file": "loops/ukgarage.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.636372
+   }
+  },
+  {
+   "id": "progtrance",
+   "title": "Progressive trance",
+   "bpm": 132,
+   "family": "Trance",
+   "file": "loops/progtrance.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.636372
+   }
+  },
+  {
+   "id": "ska",
+   "title": "Ska",
+   "bpm": 132,
+   "family": "Reggae & Caribbean",
+   "file": "loops/ska.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.636372
+   }
+  },
+  {
+   "id": "acid",
+   "title": "Acid techno",
+   "bpm": 136,
+   "family": "Techno",
+   "file": "loops/acid.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.52941
+   }
+  },
+  {
+   "id": "uplifting",
+   "title": "Uplifting trance",
+   "bpm": 138,
+   "family": "Trance",
+   "file": "loops/uplifting.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.478254
+   }
+  },
+  {
+   "id": "dubstep",
+   "title": "Dubstep",
+   "bpm": 140,
+   "family": "Breakbeat & UK bass",
+   "file": "loops/dubstep.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.428571
+   }
+  },
+  {
+   "id": "goth",
+   "title": "Gothic & post-punk",
+   "bpm": 140,
+   "family": "Industrial & gothic",
+   "file": "loops/goth.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.428571
+   }
+  },
+  {
+   "id": "grime",
+   "title": "Grime",
+   "bpm": 140,
+   "family": "Breakbeat & UK bass",
+   "file": "loops/grime.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.428571
+   }
+  },
+  {
+   "id": "trap",
+   "title": "Trap",
+   "bpm": 140,
+   "family": "Hip-hop",
+   "file": "loops/trap.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.428571
+   }
+  },
+  {
+   "id": "drill",
+   "title": "Drill",
+   "bpm": 142,
+   "family": "Hip-hop",
+   "file": "loops/drill.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.380272
+   }
+  },
+  {
+   "id": "psy",
+   "title": "Psytrance",
+   "bpm": 145,
+   "family": "Trance",
+   "file": "loops/psy.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.31034
+   }
+  },
+  {
+   "id": "hardtechno",
+   "title": "Hard techno",
+   "bpm": 150,
+   "family": "Techno",
+   "file": "loops/hardtechno.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.2
+   }
+  },
+  {
+   "id": "hardstyle",
+   "title": "Hardstyle",
+   "bpm": 150,
+   "family": "Hardcore & hardstyle",
+   "file": "loops/hardstyle.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.2
+   }
+  },
+  {
+   "id": "swing",
+   "title": "Swing",
+   "bpm": 150,
+   "family": "Jazz",
+   "file": "loops/swing.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.2
+   }
+  },
+  {
+   "id": "heavymetal",
+   "title": "Heavy metal",
+   "bpm": 152,
+   "family": "Metal",
+   "file": "loops/heavymetal.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 3.157891
+   }
+  },
+  {
+   "id": "jungle",
+   "title": "Jungle",
+   "bpm": 165,
+   "family": "Drum & bass",
+   "file": "loops/jungle.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.909093
+   }
+  },
+  {
+   "id": "rocknroll",
+   "title": "Rock ’n’ roll",
+   "bpm": 168,
+   "family": "Rock",
+   "file": "loops/rocknroll.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.857143
+   }
+  },
+  {
+   "id": "happyhc",
+   "title": "Happy hardcore",
+   "bpm": 170,
+   "family": "Hardcore & hardstyle",
+   "file": "loops/happyhc.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.823537
+   }
+  },
+  {
+   "id": "liquid",
+   "title": "Liquid drum & bass",
+   "bpm": 174,
+   "family": "Drum & bass",
+   "file": "loops/liquid.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.758617
+   }
+  },
+  {
+   "id": "neuro",
+   "title": "Neurofunk",
+   "bpm": 174,
+   "family": "Drum & bass",
+   "file": "loops/neuro.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.758617
+   }
+  },
+  {
+   "id": "punk",
+   "title": "Punk",
+   "bpm": 180,
+   "family": "Rock",
+   "file": "loops/punk.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.666667
+   }
+  },
+  {
+   "id": "gabber",
+   "title": "Gabber",
+   "bpm": 185,
+   "family": "Hardcore & hardstyle",
+   "file": "loops/gabber.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.594603
+   }
+  },
+  {
+   "id": "thrash",
+   "title": "Thrash metal",
+   "bpm": 190,
+   "family": "Metal",
+   "file": "loops/thrash.mp3",
+   "loop": {
+    "start": 0.25,
+    "length": 2.526327
+   }
+  }
+ ]
+}
