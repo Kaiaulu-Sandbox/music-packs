@@ -52,7 +52,7 @@ Each track:
 | `id` | yes | 1 to 40 characters from `a-z`, `0-9`, and `-`. Each id appears once in the pack. |
 | `title` | yes | 1 to 60 characters. Players see it. |
 | `bpm` | yes | A number from 40 to 240: the tempo the loop plays at. |
-| `file` | yes | The audio file's path inside the pack, with `/` between folders. It stays inside the pack: it never starts with `/`, never holds `..`, and never names a web address. It ends in `.mp3`, `.m4a`, `.ogg`, `.wav`, or `.flac`. |
+| `file` | yes | The audio file's path inside the pack, with `/` between folders, 200 characters or shorter. It stays inside the pack: it never starts with `/`, never holds `..`, and never names a web address. Each folder and file name starts and ends without a space, and leaves out `\`, `:`, `?`, `#`, `%`, `*`, `"`, `<`, `>`, and the vertical bar; spaces inside a name, accents, and parentheses are fine. It ends in `.mp3`, `.m4a`, `.ogg`, `.wav`, or `.flac`. |
 | `loop` | | `start` and `length` in seconds. The player repeats that stretch of the file. Without it, the whole file repeats. |
 | `family` | | Up to 40 characters, such as a genre family. |
 | `credit` | | Up to 200 characters. The player shows it while the track plays, for music whose license asks for a credit. |
@@ -63,7 +63,7 @@ A player reads the fields it knows and skips the rest, so later versions can add
 
 - **Format:** MP3 plays everywhere, so it is the safe choice: 44.1 kHz, stereo, about 160 kbps. A game may stream fewer kinds of file than the format names: Kaiāulu Sandbox's first game streams MP3 and plain (PCM or float) WAV today, and turns the other kinds away until it can measure them (see Safety and privacy).
 - **Size:** each file is 4 MB or smaller, and each loop is 90 seconds or shorter. A whole file, with its lead-in and tail, holds 120 seconds of audio or less, in one or two channels. `pack.json` is 256 KB or smaller.
-- **Loudness:** about −18 dBFS RMS, with peaks at or under −1 dBFS, so every track in every pack plays at a similar volume. A game may turn a louder loop down: that game plays a loop above −16 dBFS RMS at −16.
+- **Loudness:** about −18 dBFS RMS, with peaks at or under −1 dBFS, so every track in every pack plays at a similar volume. A game may turn a louder loop down: that game plays a loop above −16 dBFS RMS at −16, and a loop whose loudest 0.4 seconds sit above −10 dBFS RMS comes down until they sit at −10, so a loud burst inside a quiet loop is turned down too.
 - **A clean loop:** give the file at least 0.25 s of lead-in before `loop.start` and at least 0.25 s after the loop's end, each copied from the loop itself (the lead-in is the loop's ending, and the tail is the loop's beginning). MP3 decoders add a few hundredths of a second of padding, and this margin keeps the loop exact on every browser. The player crossfades the last 10 ms into the lead-in.
 - **Length:** a whole number of bars at the track's `bpm`. Longer loops, of 8 bars or more, stay fresh longer.
 
@@ -85,7 +85,7 @@ A player reads the fields it knows and skips the rest, so later versions can add
 ## Safety and privacy
 
 - **Data only.** A pack holds JSON and audio. The game reads `pack.json` as data, checks every field against the rules above, and decodes audio with the browser's audio decoder. Nothing in a pack runs as code.
-- **Measured before decoding.** A small audio file can decode to hours of sound. The game reads a streamed file's length from the file's own bytes first, and hands the decoder only a file within the limits above.
+- **Measured before decoding.** A small audio file can decode to hours of sound. The game reads a streamed file's length from the file's own bytes first, and hands the decoder only a file that measures 150 seconds or less, in one or two channels; once the file is decoded, its true length is held to the 120-second limit above. (An MP3's measure is the most audio its bytes could hold, so the first limit leaves room above the second.)
 - **Text a player can see.** The game shows a pack's text as plain text, and leaves out characters that steer the reading direction, characters that take no room on the screen, and accents stacked more than three deep.
 - **Two hosts.** The game's security policy allows requests to `raw.githubusercontent.com` and `cdn.jsdelivr.net` and to nowhere else, over HTTPS, without cookies and without a referrer.
 - **What the host sees.** When a pack streams, GitHub or jsDelivr sees the player's connection, as any website does. The pack's author sees nothing. The game sends no account, cookie, or personal information.
